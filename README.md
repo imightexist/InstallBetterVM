@@ -7,3 +7,11 @@ tihajiosjfoasjd so i made a script based on mkcvm that does this shit:
 4. downloads dark mode
 5. sets up a windows 7 vm with no turns or resets
 6. makes admin password
+
+How to install:
+1. download zip
+2. extract
+3. run terminal
+4. go to directory where bettervm is
+5. chmod +x mkbettervm.sh
+6. ./mkbettervm.sh
