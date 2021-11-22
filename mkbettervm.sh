@@ -17,7 +17,7 @@ mv ./disk.qcow2 ~/Downloads/disk.qcow2
 cd ~/bettervm
 curl -0 http://amogus.uk/public2/bettervm/bettervmindex2.asd --output temp.html
 curl -0 http://amogus.uk/public2/bettervm/bettervmindex3.asd --output light.html
-curl -0 http://amogus.uk/public2/bettervm/collab-vm2.db --output collab-vm.db
+curl -0 http://amogus.uk/public2/bettervm/collab-vm3.db --output collab-vm.db
 rm ~/cvm/final/http/index.html
 mv ~/bettervm/light.html ~/cvm/final/http/index.html
 mv ~/bettervm/collab-vm.db ~/cvm/final/collab-vm.db
