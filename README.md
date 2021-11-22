@@ -18,5 +18,4 @@ How to install:
 
 Not fixed yet:
 1. resetting admin pass for better usage
-2. changing 5 users per ip to 200 (it uses local tunnel so this is necessary)
-3. windows 7 iso link no longer works on collabvm :/
+2. windows 7 iso link no longer works on collabvm :/
