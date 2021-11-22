@@ -16,6 +16,9 @@ How to install:
 5. chmod +x mkbettervm.sh
 6. ./mkbettervm.sh
 
+Supported Distros:
+debian and debian based distros ig
+
 Not fixed yet:
 1. resetting admin pass for better usage
 2. windows 7 iso link no longer works on collabvm :/
