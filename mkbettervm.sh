@@ -1,5 +1,4 @@
 echo This script is the improved version of mkcvm by totallyNotAUser
-echo btw totallyNotAUser pls come back to collabvm
 echo Note: this does take a while so you should sit back and go take a shit
 sudo apt-get -y update
 sudo apt-get install -y curl
