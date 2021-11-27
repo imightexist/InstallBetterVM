@@ -21,6 +21,4 @@ debian and debian based distros ig
 
 Not fixed yet:
 1. resetting admin pass for better usage
-2. windows 7 iso link no longer works on collabvm :/
-3. tiny7 is now installed but it still says windows 7 vm
-4. It seems that libjpeg.so.62 is not working which i guess is needed for collabvm to work
+2. It seems that libjpeg.so.62 is not working which i guess is needed for collabvm to work
