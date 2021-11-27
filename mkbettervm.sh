@@ -10,7 +10,7 @@ sudo apt-get install -y qemu-utils
 chmod u+x mkcvm.sh
 ~/bettervm/mkcvm.sh
 cd ~/Downloads
-curl -0 http://download.microsoft.com/download/1/E/6/1E6B4803-DD2A-49DF-8468-69C0E6E36218/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_ULTIMATE_x86FRE_en-us.iso --output 7.iso
+curl -0 https://download.microsoft.com/download/1/E/6/1E6B4803-DD2A-49DF-8468-69C0E6E36218/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_ULTIMATE_x86FRE_en-us.iso --output 7.iso
 qemu-img create -f qcow2 disk.qcow2 30G
 mv ./disk.qcow2 ~/Downloads/disk.qcow2
 cd ~/bettervm
