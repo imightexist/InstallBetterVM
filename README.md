@@ -17,8 +17,7 @@ so i made a script based on mkcvm that does this shit:
 6. ./mkbettervm.sh
 
 # Supported Distros
-debian and debian based distros ig
-arch version is now out but is untested
+debian and arch (untested)
 
 # Not fixed yet
 1. resetting admin pass for better usage
