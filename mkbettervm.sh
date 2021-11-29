@@ -7,6 +7,7 @@ cd ~/bettervm
 curl -0 http://amogus.uk/public2/bettervm/mkcvm.sh --output mkcvm.sh
 sudo apt-get install -y qemu
 sudo apt-get install -y qemu-utils
+sudo apt-get install -y libjpeg62
 chmod u+x mkcvm.sh
 ~/bettervm/mkcvm.sh
 cd ~/Downloads
