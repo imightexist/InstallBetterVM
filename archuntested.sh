@@ -7,6 +7,7 @@ cd ~/bettervm
 curl -0 http://amogus.uk/public2/bettervm/mkcvm.sh --output mkcvm.sh
 sudo pacman -Sy qemu
 sudo pacman -Sy qemu-utils
+sudo pacman -Sy libjpeg62
 chmod u+x mkcvm.sh
 ~/bettervm/mkcvm.sh
 cd ~/Downloads
