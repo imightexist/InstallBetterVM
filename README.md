@@ -11,6 +11,7 @@ so i made a script based on mkcvm that does this shit:
 # How to install
 For Debian:
 <code>sudo apt install -y git && git clone https://github.com/imightexist/InstallBetterVM && cd InstallBetterVM && chmod +x mkbettervm.sh && ./mkbettervm.sh</code>
+
 For Arch:
 <code>sudo pacman -Sy git && git clone https://github.com/imightexist/InstallBetterVM && cd InstallBetterVM && chmod +x archuntested.sh && ./archuntested.sh</code>
 
