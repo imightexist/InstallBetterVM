@@ -17,6 +17,8 @@ so i made a script based on mkcvm that does this shit:
 # Supported Distros
 debian and arch (untested)
 
+if i get it to work, there might be a windows version
+
 # Not fixed yet
 1. resetting admin pass for better usage
 2. It seems that libjpeg.so.62 is not working which i guess is needed for collabvm to work
