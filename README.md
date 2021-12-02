@@ -9,10 +9,10 @@ so i made a script based on mkcvm that does this shit:
 6. makes admin password
 
 # How to install
-1. Install git on debian: sudo apt install -y git (if needed)
-2. Install git on arch: sudo pacman -Sy git (if needed)
-3. For debian run: git clone https://github.com/imightexist/InstallBetterVM && cd InstallBetterVM && chmod +x mkbettervm.sh && ./mkbettervm.sh
-4. For arch run: git clone https://github.com/imightexist/InstallBetterVM && cd InstallBetterVM && chmod +x archuntested.sh && ./archuntested.sh
+For Debian:
+<code>sudo apt install -y git && git clone https://github.com/imightexist/InstallBetterVM && cd InstallBetterVM && chmod +x mkbettervm.sh && ./mkbettervm.sh</code>
+For Arch:
+<code>sudo pacman -Sy git && git clone https://github.com/imightexist/InstallBetterVM && cd InstallBetterVM && chmod +x archuntested.sh && ./archuntested.sh</code>
 
 # Supported Distros
 debian and arch (untested)
