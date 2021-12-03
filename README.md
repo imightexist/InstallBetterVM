@@ -22,4 +22,4 @@ if i get it to work, there might be a windows version
 
 # Not fixed yet
 1. resetting admin pass for better usage
-2. It seems that libjpeg.so.62 is not working which i guess is needed for collabvm to work
+2. It seems that libjpeg.so.62 is not working which i guess is needed for collabvm to work (not entirely sure but i dont think lubuntu vm can handle libjpeg with the 7 iso)
