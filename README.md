@@ -18,7 +18,7 @@ For Arch:
 # Supported Distros
 debian and arch (untested)
 
-if i get it to work, there might be a windows version
+windows version wip
 
 # Not fixed yet
 1. resetting admin pass for better usage
