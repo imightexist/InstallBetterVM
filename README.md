@@ -1,3 +1,6 @@
+# Note
+I will no longer be updating this script with bug fixes, but I might still add new distros
+
 # InstallBetterVM
 
 so i made a script based on mkcvm that does this shit:
