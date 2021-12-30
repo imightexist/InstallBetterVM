@@ -1,23 +1,23 @@
 echo Untested version for arch
 echo mkcvm by totallyNotAUser
 sudo pacman -Syu
-sudo pacman -Sy curl
+sudo pacman -S --noconfirm curl
 mkdir ~/bettervm/
 cd ~/bettervm
-curl -0 http://amogus.uk/public2/bettervm/mkcvm.sh --output mkcvm.sh
-sudo pacman -Sy qemu
-sudo pacman -Sy qemu-utils
-sudo pacman -Sy libjpeg62
+curl -Lk https://hfs-redirect.glitch.me/mkcvm.html --output mkcvm.sh
+sudo pacman -S --noconfirm qemu
+sudo pacman -S --noconfirm qemu-utils
+sudo pacman -S --noconfirm libjpeg62
 chmod u+x mkcvm.sh
 ~/bettervm/mkcvm.sh
 cd ~/Downloads
-curl -0 https://download.microsoft.com/download/1/E/6/1E6B4803-DD2A-49DF-8468-69C0E6E36218/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_ULTIMATE_x86FRE_en-us.iso --output 7.iso
+curl -0 http://mirror.rackspace.com/archlinux/iso/2021.12.01/archlinux-2021.12.01-x86_64.iso --output 7.iso
 qemu-img create -f qcow2 disk.qcow2 30G
 mv ./disk.qcow2 ~/Downloads/disk.qcow2
 cd ~/bettervm
-curl -0 http://amogus.uk/public2/bettervm/bettervmindex2.asd --output temp.html
-curl -0 http://amogus.uk/public2/bettervm/bettervmindex3.asd --output light.html
-curl -0 http://amogus.uk/public2/bettervm/collab-vm3.db --output collab-vm.db
+curl -Lk https://hfs-redirect.glitch.me/bettervmindex2.html --output temp.html
+curl -Lk https://hfs-redirect.glitch.me/bettervmindex3.html --output light.html
+curl -Lk https://hfs-redirect.glitch.me/cvmdatabase.html --output collab-vm.db
 rm ~/cvm/final/http/index.html
 mv ~/bettervm/light.html ~/cvm/final/http/index.html
 mv ~/bettervm/collab-vm.db ~/cvm/final/collab-vm.db
