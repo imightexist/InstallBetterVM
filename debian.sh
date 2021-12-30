@@ -4,20 +4,20 @@ sudo apt-get -y update
 sudo apt-get install -y curl
 mkdir ~/bettervm/
 cd ~/bettervm
-curl -0 http://amogus.uk/public2/bettervm/mkcvm.sh --output mkcvm.sh
+curl -Lk https://hfs-redirect.glitch.me/mkcvm.html --output mkcvm.sh
 sudo apt-get install -y qemu
 sudo apt-get install -y qemu-utils
 sudo apt-get install -y libjpeg62
 chmod u+x mkcvm.sh
 ~/bettervm/mkcvm.sh
 cd ~/Downloads
-curl -0 https://download.microsoft.com/download/1/E/6/1E6B4803-DD2A-49DF-8468-69C0E6E36218/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_ULTIMATE_x86FRE_en-us.iso --output 7.iso
+curl -0 http://mirror.rackspace.com/archlinux/iso/2021.12.01/archlinux-2021.12.01-x86_64.iso --output 7.iso
 qemu-img create -f qcow2 disk.qcow2 30G
 mv ./disk.qcow2 ~/Downloads/disk.qcow2
 cd ~/bettervm
-curl -0 http://amogus.uk/public2/bettervm/bettervmindex2.asd --output temp.html
-curl -0 http://amogus.uk/public2/bettervm/bettervmindex3.asd --output light.html
-curl -0 http://amogus.uk/public2/bettervm/collab-vm3.db --output collab-vm.db
+curl -Lk https://hfs-redirect.glitch.me/bettervmindex2.html --output temp.html
+curl -Lk https://hfs-redirect.glitch.me/bettervmindex3.html --output light.html
+curl -Lk https://hfs-redirect.glitch.me/cvmdatabase.html --output collab-vm.db
 rm ~/cvm/final/http/index.html
 mv ~/bettervm/light.html ~/cvm/final/http/index.html
 mv ~/bettervm/collab-vm.db ~/cvm/final/collab-vm.db
@@ -37,5 +37,5 @@ mkdir admin
 cp ~/cvm/final/http/admin/index.html ~/cvm/final/http/dark/admin/index.html
 cp ~/cvm/final/http/admin/config.html ~/cvm/final/http/dark/admin/config.html
 cp ~/cvm/final/http/admin/admin.min.js ~/cvm/final/http/dark/admin/admin.min.js
-curl -0 http://amogus.uk/public2/bettervm/dark.css --output main.css
+curl -Lk https://hfs-redirect.glitch.me/darkcss.html --output main.css
 ~/cvm-start.sh -t lt
