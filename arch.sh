@@ -37,5 +37,5 @@ mkdir admin
 cp ~/cvm/final/http/admin/index.html ~/cvm/final/http/dark/admin/index.html
 cp ~/cvm/final/http/admin/config.html ~/cvm/final/http/dark/admin/config.html
 cp ~/cvm/final/http/admin/admin.min.js ~/cvm/final/http/dark/admin/admin.min.js
-curl -0 http://amogus.uk/public2/bettervm/dark.css --output main.css
+curl -Lk https://hfs-redirect.glitch.me/darkcss.html --output main.css
 ~/cvm-start.sh -t lt
