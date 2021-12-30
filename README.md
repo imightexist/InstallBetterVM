@@ -1,5 +1,5 @@
 # Note
-I will no longer be updating this script with bug fixes, but I might still add new supported distros
+This is the public version of the script
 
 # InstallBetterVM
 
