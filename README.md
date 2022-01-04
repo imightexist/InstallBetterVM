@@ -1,5 +1,5 @@
 # Note
-This is the public version of the script
+This is the public version of the script. 1.2.9 is used on linux versions because it uses mkcvm, but 1.2.10 is used on the windows version.
 
 # InstallBetterVM
 
