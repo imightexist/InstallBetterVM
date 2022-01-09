@@ -1,5 +1,4 @@
-echo This script is the improved version of mkcvm by totallyNotAUser
-echo Note: this does take a while so you should sit back and go take a shit
+echo we are gonna remove mkcvm cuz i think its fucked
 sudo apt-get -y update
 sudo apt-get install -y curl
 mkdir ~/bettervm/
