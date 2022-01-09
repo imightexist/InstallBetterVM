@@ -21,7 +21,7 @@ For Arch:
 # Supported Distros
 debian and arch (untested)
 
-windows version wip
+currently the windows version just has a broken windows version check and downloads curl. use linux.
 
 # Not fixed yet
 1. resetting admin pass for better usage
