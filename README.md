@@ -23,7 +23,8 @@ debian and arch (untested)
 
 currently the windows version just has a broken windows version check and downloads curl. use linux.
 
-# Not fixed yet
+# to do
 1. resetting admin pass for better usage
 2. It seems that libjpeg.so.62 is not working which i guess is needed for collabvm to work (not entirely sure but i dont think lubuntu vm can handle libjpeg with the 7 iso)
 3. removing mkcvm
+4. changing the download links
